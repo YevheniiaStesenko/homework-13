@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+@import "../css/normalize.css";
+@import "../css/thafalgar_section.css";
+@import "../css/weeding.css";
+
+
+
+body {
+    font-family: Mulish, Roboto, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
