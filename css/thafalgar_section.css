@@ -1,0 +1,92 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 4.3;
+    color: #000000;
+    text-align: center;
+}
+.title::after {
+    display: block;
+    content: '';
+    width: 56px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 5px;
+}
+.text {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    color: #7D7987;
+    margin-bottom: 80px;
+}
+.doctor {
+    grid-area: doctor;
+}
+.pharmacy {
+    grid-area: pharmacy;
+}
+.consult {
+    grid-area: consult;
+}
+.info {
+    grid-area: info;
+}
+.emergency {
+    grid-area: emergency;
+}
+.track {
+    grid-area: track;
+}
+.services-cards {
+    display: grid;
+    grid-template-areas: "doctor pharmacy consult"
+                         "info emergency track";
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.services-cards li {
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
+.services-cards img {
+    margin-left: 38px;
+    margin-top: 55px;
+}
+.consult h3 {
+    margin-top: 15px;
+}
+.emergency h3 {
+    margin-top: 40px;
+}
+.services-cards h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2.3;
+    color: #000000;
+    margin-left: 38px;
+    margin-bottom: 0px;
+}
+.services-cards p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75; 
+    color: #7D7987;
+    margin-left: 38px;
+    margin-right: 45px;
+    margin-bottom: 47px;
+    margin-top: 0px;
+}
